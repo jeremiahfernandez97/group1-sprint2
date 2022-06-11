@@ -30,7 +30,7 @@ st.sidebar.write('')
 # my_page = st.sidebar.radio('Violence Against Women (VAW) in the Philippines', ['Dataset', 'Prevailence of VAW', 'VAW Interactive Regional Map', 'Clusters', 'Insights', 'Recommendations'])
 
 
-my_page = st.sidebar.radio('Page Navigation', ['Introduction', 'Audio Feature Selection', 'AN\'s Streams Over Time', 'Streams Contribution of AN and Viva Artists', 'Recommendation Engine'])
+my_page = st.sidebar.radio('Page Navigation', ['Introduction', 'Audio Feature Selection', 'AN\'s Streams Over Time', 'Weekly Streams and Top Chart Positions of AN vs. Top 2 Competitors', 'Streams Contribution of AN and Viva Artists', 'Recommendation Engine'])
 
 if my_page == 'Introduction':
     st.image("1.png")
@@ -40,6 +40,9 @@ elif my_page == 'Audio Feature Selection':
 
 elif my_page == 'AN\'s Streams Over Time':
     st.image("3.png")
+    
+elif my_page == 'Weekly Streams and Top Chart Positions of AN vs. Top 2 Competitors':
+    st.image("6.png")
     
 elif my_page == 'Streams Contribution of AN and Viva Artists':
     st.image("4.png")
